@@ -8,16 +8,15 @@ class NavBar extends Component {
             <div class="Nav-Con">
                 <h2> Ezana Bahta </h2>
                 <ul>
-                    <li> <Link to="/home"> Home </Link> </li>
+                    <li class="nav-link"> <Link to="/" class="nav-link-a"> Home </Link> </li>
                     {/* Explains About me coding and who I am What I like to do */}
-                    <li> <Link to="/aboutme"> About Me </Link></li>
+                    <li class="nav-link"> <Link to="/aboutme" class="nav-link-a"> About Me </Link></li>
                     {/* Display Cards showing my projects */}
-                    <li> <Link to="/projects"> Projects </Link></li>
+                    <li class="nav-link"> <Link to="/projects" class="nav-link-a"> Projects </Link></li>
                     {/* a Page with how to get in touch with me maybe just a drop down bar */}
-                    <li> <Link to="/contact"> Contact Me </Link></li>
+                    <li class="nav-link"> <Link to="/contact" class="nav-link-a"> Contact Me </Link></li>
                      {/* Online downloadable Resume  */}
-                    <li> <Link to="/resume"> Resume </Link></li>
-
+                    <li class="nav-link"> <Link to="/resume" class="nav-link-a"> Resume </Link></li>
                 </ul>
             </div>
         );

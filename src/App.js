@@ -1,14 +1,22 @@
 import React, { Component } from 'react';
 import './App.css';
-import NavBar from './NavBar'
-import Main from './components/Main'
+import NavBar from './components/navigation/NavBar'
+import Main from './components/content/Main'
+import Footer from './components/footer/Footer'
 
 class App extends Component {
   render() {
     return (
       <div>
-      <NavBar />
-      <Main />
+        <div class="Navigation">
+          <NavBar />
+        </div>
+        <div class="Content">
+          <Main />
+        </div>
+        <div class="Footer">
+          <Footer />
+        </div>
       </div>
     );
   }

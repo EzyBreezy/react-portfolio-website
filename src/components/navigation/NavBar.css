@@ -24,27 +24,30 @@ ul {
     margin: 0;
 }
 
-li {
+.nav-link {
     color: white;
     background: black;
     text-align: center;
     display: flex;
     justify-content: center;
+    border-top: black solid 1px;
+    border-bottom: black solid 1px;
 }
-li:hover {
+.nav-link:hover {
     color: rgb(0, 238, 255);
     text-shadow: rgb(0, 238, 255) 0px 0px 40px;
+    border-top: rgb(0, 238, 255) solid 1px;
+    border-bottom: rgb(0, 238, 255) solid 1px;
 }
 
 
-a {
+.nav-link-a {
     padding: 0 20px;
-    text-decoration: none;
     color: inherit;
-    font-size: 35px;
-    font-weight: 800;
-    font-family: 'Montserrat', sans-serif;
     display: inline-block;
     z-index: 1;
     text-shadow: inherit;
+    font-size: 35px;
+    font-weight: 800;
+    font-family: 'Montserrat', sans-serif;
 }

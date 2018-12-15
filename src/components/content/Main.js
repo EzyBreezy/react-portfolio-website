@@ -12,7 +12,7 @@ class Main extends Component {
         return (
             <div>
                 <Switch>
-                    <Route path="/home" component={Home} />
+                    <Route exact path="/" component={Home} />
                     <Route path="/aboutme" component={AboutMe} />
                     <Route path="/projects" component={Projects} />
                     <Route path="/contact" component={Contact} />

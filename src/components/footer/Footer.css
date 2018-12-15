@@ -1,0 +1,41 @@
+.Footer-Con {
+    background: black;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    font-size: 20px;
+}
+.Footer {
+    display: grid;
+    height: 200px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+.item-1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    width: 100%;
+}
+.item-2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    font-size: 30px;
+}
+.item-3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.item-4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    grid-area: 2 / 1 / 2 / 4;
+}
+

@@ -12,10 +12,15 @@
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
 }
+.item-1-con {
+    margin: auto;
+    padding-top: 10px;
+}
 .item-1 {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 35px 35px 35px;
+    grid-gap: 10px;
     width: 100%;
 }
 .item-2 {
@@ -38,4 +43,8 @@
     width: 100%;
     grid-area: 2 / 1 / 2 / 4;
 }
-
+.footer-item-1 {
+    color: white;
+    display: flex;
+    align-items: center;
+}

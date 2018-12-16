@@ -48,3 +48,9 @@
     display: flex;
     align-items: center;
 }
+.sitemap-link {
+    color: white;
+}
+.sitemap-link:hover, .footer-item-1:hover, .footer-item-2:hover {
+    color: rgb(0, 238, 255);
+}

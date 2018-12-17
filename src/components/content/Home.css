@@ -1,5 +1,17 @@
-.Home-con {
+.home-con {
     max-width: 960px;
     margin: 0 auto;
     text-align: center;
+}
+.my-name:hover {
+    color: rgb(0, 238, 255);
+}
+.profile-img-con {
+    border: 10px solid black;
+    border-radius: 50%;
+}
+.profile-img {
+    width: 350px;
+    border-radius: 50%;
+    border: 10px solid white;
 }

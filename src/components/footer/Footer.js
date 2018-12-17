@@ -5,8 +5,8 @@ import './Footer.css'
 class Footer extends Component {
     render() {
         return (
-            <div className="Footer-Con">
-                <div className="Footer">
+            <div className="footer-con">
+                <div className="footer">
                     <div className="item-1-con">
                         <div className="item-1">
                             {/* info row */}
@@ -23,7 +23,7 @@ class Footer extends Component {
                     </div>
                     <div className="item-3">
                         {/* Create a link to a full breakdown of all the views */}
-                        <Link to="/sitemap" className="sitemap-link"> Sitemap </Link>
+                        {/* <Link to="/sitemap" className="sitemap-link"> Sitemap </Link> */}
                     </div>
                     <div className="item-4">
                         {/* bottom of footer */}

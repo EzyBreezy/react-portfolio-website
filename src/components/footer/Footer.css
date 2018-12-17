@@ -1,4 +1,4 @@
-.Footer-Con {
+.footer-con {
     background: black;
     color: white;
     position: absolute;
@@ -6,7 +6,7 @@
     width: 100%;
     font-size: 20px;
 }
-.Footer {
+.footer {
     display: grid;
     height: 200px;
     grid-template-columns: 1fr 1fr 1fr;

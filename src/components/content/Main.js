@@ -4,7 +4,6 @@ import AboutMe from './AboutMe'
 import Projects from './Projects'
 import Resume from './Resume'
 import Contact from './Contact'
-import Sitemap from './Sitemap'
 import { Switch, Route } from 'react-router-dom';
 
 
@@ -18,7 +17,6 @@ class Main extends Component {
                     <Route path="/projects" component={Projects} />
                     <Route path="/contact" component={Contact} />
                     <Route path="/resume" component={Resume} />
-                    <Route path="/sitemap" component={Sitemap} />
                 </Switch>
             </div>
         );

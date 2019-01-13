@@ -7,14 +7,14 @@ import Footer from './components/footer/Footer'
 class App extends Component {
   render() {
     return (
-      <div>
-        <div className="Navigation">
+      <div class="site-content">
+        <div className="navigation">
           <NavBar />
         </div>
-        <div className="Content">
+        <div className="content">
           <Main />
         </div>
-        <div className="Footer">
+        <div className="footer">
           <Footer />
         </div>
       </div>

@@ -1,17 +1,23 @@
 .home-con {
-    max-width: 960px;
-    margin: 0 auto;
+    height: 70vh;
     text-align: center;
-}
-.my-name:hover {
-    color: rgb(0, 238, 255);
-}
-.profile-img-con {
-    border: 10px solid black;
-    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .profile-img {
-    width: 350px;
     border-radius: 50%;
-    border: 10px solid white;
+    max-width: 250px;
+}
+.profile-title {
+    color: var(--main-text-color);
+    margin: 5px 0 -5px 0;
+}
+.my-name {
+    color: var(--main-text-color);
+}
+.profile-des {
+    color: var(--main-text-color);
+    margin: 5px 10px;
 }

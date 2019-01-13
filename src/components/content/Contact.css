@@ -1,0 +1,22 @@
+.contact-con {
+    text-align: center;
+}
+.contact-form {
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.input {
+    padding: 5px 0;
+    margin: 15px 0;
+    width: 88vw;
+    border: none;
+    border-bottom: 3px solid var(--main-text-color);
+    font-size: 1.5em;
+}
+
+.input-submit {
+    border-radius: 3px;
+}

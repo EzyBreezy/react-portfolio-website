@@ -1,28 +1,19 @@
 import React, { Component } from 'react';
+import './AboutMe.css'
 
 class AboutMe extends Component {
     render() {
         return (
-            <div>
-                <h1> About Me Page</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in arcu a augue auctor lacinia non vel eros. 
-                Curabitur vulputate ultricies tincidunt. Nulla ullamcorper sem enim, in imperdiet sem iaculis non. Sed lobortis 
-                libero ut euismod imperdiet. Curabitur euismod posuere sollicitudin. Quisque feugiat tellus a mi tincidunt, 
-                scelerisque aliquet magna vehicula. Pellentesque eros velit, vestibulum a placerat ac, porta sed nulla. Aliquam vel 
-                fringilla leo. Donec ut tristique mauris, sed ultrices felis. Quisque vitae magna consequat, maximus lectus non, 
-                facilisis odio. Proin posuere urna at cursus hendrerit. Proin feugiat sollicitudin aliquam. Nunc commodo nulla quis 
-                orci placerat tincidunt. Nunc iaculis ultrices porttitor. Cras odio quam, pellentesque eget tempor a, porta quis dolor. 
-                Aenean quis turpis vel erat eleifend maximus vitae sed enim. </p>
+            <div className="about-con">
+                <h1 className="about-title"> About Me</h1>
 
-                <p>Sed elementum placerat sapien, et commodo nulla dignissim ac. Etiam eu sodales tellus. Phasellus mattis et sapien non 
-                feugiat. Praesent tincidunt leo vel ligula dictum condimentum. Sed sem leo, feugiat sed nibh aliquet, finibus eleifend 
-                erat. Sed accumsan orci in ex lobortis, sed porttitor tellus cursus. Fusce vitae neque eget ligula elementum iaculis.</p>
+                <p> I am a Developer from the Washington DC area. </p>
 
-                <p>Nam et aliquam ligula, pulvinar dignissim est. Maecenas et tempor tortor. Maecenas porttitor efficitur interdum. 
-                Aenean at magna porta, bibendum orci id, tristique ligula. Praesent mattis urna quam, in accumsan magna consequat a. 
-                Fusce maximus arcu odio, eu auctor ante dictum eu. Maecenas dictum lectus non leo posuere, ut ultrices odio placerat. 
-                In vel mi gravida, sollicitudin dui sit amet, consequat ex. Vivamus non euismod libero, a vulputate ipsum. Ut sodales 
-                sapien quis dolor sagittis vulputate. Nunc nec sem ipsum. Aenean imperdiet ultrices commodo. Cras at gravida nibh.</p>
+                <p> 
+                    I have worked in a lot of different fields and holding varius positions mostly in a sales invironment. I always had a high interest in technology but being as broad as it may I never knew which path to choose. I studdied reading Mike Myers books to be CompTIA certified and imbark down a networking field. But it didnt seem fullfilling as I thought it would be. I dabbled in penetration testing finding weak points in my wifi networks using tools such as "aircrack-ng" on my Linux distro's or "John the Ripper" to compile and crunch through librariers of passwords. It was exciting to see the knowledge being applied. But out of all that I have done what interests me most is coding. I had been intimidated by it after trying to teach myself Java with no mentor and failing flat on my face. But then I didnt know of all the resources I do now. I took General Assembly's 3 month imersive course to have the structure and guidance with high regard from prior alumni. I learned a lot in the 3 months. I also made great friends who are talented and as driven who help push through problems. But theres so much to learn that it is exciting to be a part of. I think the part that I like most is there is no right or wrong its all creativeity being applied. I visit meetups and I see the culture in this industry like no other that I had been part of. I go to meetups and learn new things I never heard of before and go home and research more into it and see how to apply it. Its so exciting to be a part of this. I also have worked on independent projects applying new things that I learn daily. I enjoy working on applications from the ground up. The aspect of taking an idea and seeing it itterate over till final product is a very exciting part to be a part of whether its one I thought of or someone elses.
+                </p>
+
+                <p>When I am not coding im usually working on cars such as ruitine oil change, brakes, or just a weekend cleaning or hanging out with friends or tackling a nifty project from <a href="https://www.instructables.com" target="_blank" rel="noopener noreferrer">instructables</a>. You can probably tell I enjoy DIY projects.</p>
             </div>
         );
     }

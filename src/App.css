@@ -1,31 +1,11 @@
-html, body {
-    height: 100%;
-    margin: 0;
-    border: 0;
+.site-content {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
 }
-
-.Content {
-    padding-top: 30px;
-    max-width: 960px;
-    margin: 0 auto;
+.content {
+    flex: 1;
 }
-
-a {
-    text-decoration: none;
-}
-
-.noselect {
-    -webkit-touch-callout: none;
-    /* iOS Safari */
-    -webkit-user-select: none;
-    /* Safari */
-    -khtml-user-select: none;
-    /* Konqueror HTML */
-    -moz-user-select: none;
-    /* Firefox */
-    -ms-user-select: none;
-    /* Internet Explorer/Edge */
-    user-select: none;
-    /* Non-prefixed version, currently
-                                    supported by Chrome and Opera */
+.footer {
+    min-width: 100vw;
 }

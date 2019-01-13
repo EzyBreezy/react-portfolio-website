@@ -5,9 +5,9 @@ class Home extends Component {
     render() {
         return (
             <div className="home-con">
-                <img src="https://i.imgur.com/DIe5Bxl.jpg" class="profile-img" alt="Ezana Profile Picture"></img>
-                <h1> Hi, I am <span className="my-name">Ezana Bahta</span> </h1>
-                <p> I am a <i><strong>Developer</strong></i> who enjoys working in all levels of creative problem solving.</p>
+                <img src="https://i.imgur.com/DIe5Bxl.jpg" className="profile-img" alt=""></img>
+                <h1 className="profile-title"> Hi, I am <span className="my-name">Ezana Bahta</span> </h1>
+                <p className="profile-des"> I am a <i><strong>Developer</strong></i> who enjoys working in all levels of creative problem solving.</p>
             </div>
         );
     }

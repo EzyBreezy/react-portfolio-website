@@ -1,6 +1,5 @@
 .footer-con {
     background: var(--nav-bg-color);
-    color: var(--nav-text-color);
 }
 .footer {
     display: flex;
@@ -14,6 +13,8 @@
 .fab {
     padding: 0 30px;
     font-size: 1.5em;
+    color: var(--nav-text-color);
+    text-decoration: none;
 }
 /* last modified dates */
 .item-2 {

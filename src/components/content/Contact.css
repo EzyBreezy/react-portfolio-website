@@ -16,7 +16,9 @@
     border-bottom: 3px solid var(--main-text-color);
     font-size: 1.5em;
 }
-
+.input-text {
+    height: 20vh;
+}
 .input-submit {
     border-radius: 3px;
 }

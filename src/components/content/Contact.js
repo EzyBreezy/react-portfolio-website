@@ -7,7 +7,7 @@ class Contact extends Component {
             <div className="contact-con">
                 <h1 className="contact-title"> Contact Me </h1>
 
-                <form action="mailto:ezanab2@gmail.com" method="post" enctype="text/plain" className="contact-form">
+                <form action="mailto:ezanab2@gmail.com" method="POST" enctype="text/plain" className="contact-form">
                     <input 
                         type="text" 
                         placeholder="Name" 

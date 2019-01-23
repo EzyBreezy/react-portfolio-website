@@ -15,7 +15,7 @@ class Footer extends Component {
                     </div>
                     <div className="item-2">
                         {/* bottom of footer */}
-                        <p>Last Modified: December 16 2018 </p>
+                        <p>Last Modified: January 23 2018 </p>
                     </div>
                 </div>
             </div>
